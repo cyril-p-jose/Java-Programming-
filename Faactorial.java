@@ -7,6 +7,7 @@ public class Factorial {
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
 
+    
         long fact = 1;
         int i = 1;
 
