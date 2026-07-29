@@ -1,3 +1,5 @@
+package Module1;
+
 import java.util.Scanner;
 
 public class SumOfDigits {
@@ -9,11 +11,13 @@ public class SumOfDigits {
 
         int sum = 0;
 
-        while (num > 0) {
+        while (num != 0) {
             sum += num % 10;
             num /= 10;
         }
 
         System.out.println("Sum of digits = " + sum);
+
+        sc.close();
     }
 }
