@@ -1,6 +1,8 @@
+package Module1;
+
 import java.util.Scanner;
 
-public class VowelConsonant {
+public class VowelOrConsonant {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -18,5 +20,7 @@ public class VowelConsonant {
             default:
                 System.out.println("Consonant");
         }
+
+        sc.close();
     }
 }
